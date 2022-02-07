@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 class BuyerMainScreen extends StatelessWidget {
@@ -7,8 +5,10 @@ class BuyerMainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("BuyerMainScreen"),
+    return const Scaffold(
+      body: Center(
+        child: Text("BuyerMainScreen"),
+      ),
     );
   }
 }

@@ -5,8 +5,10 @@ class SellerMainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("SellerMainScreen"),
+    return   const Scaffold(
+      body : Center(
+        child: Text("SellerMainScreen"),
+      ),
     );
   }
 }
