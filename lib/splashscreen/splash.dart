@@ -1,10 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:footwearclub/constants/splashdata.dart';
 import 'package:get/get.dart';
 
 import 'buyorsell.dart';
 import '../constants/constant.dart';
-import 'splashdata.dart';
 
 class Splash_Screen extends StatefulWidget {
   @override

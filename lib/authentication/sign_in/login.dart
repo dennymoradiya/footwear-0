@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart'; 
-import 'package:flutter_svg/svg.dart'; 
-import 'package:footwearclub/splashscreen/splashdata.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:footwearclub/constants/splashdata.dart'; 
 import 'package:get/get.dart';
 
 import '../../constants/constant.dart'; 

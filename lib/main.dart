@@ -1,12 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:footwearclub/constants/theme.dart';
-import 'package:footwearclub/seller/SellerMainScreen.dart';
+import 'package:footwearclub/seller/pages/SellerMainScreen.dart';
 import 'package:get/get.dart';
 
 import 'authentication/shred_pref.dart';
 import 'authentication/sign_up/auth_google.dart'; 
-import 'buyer/BuyerMainScreen.dart';
+import 'buyer/pages/BuyerMainScreen.dart';
 import 'splashscreen/splash.dart';
 
  

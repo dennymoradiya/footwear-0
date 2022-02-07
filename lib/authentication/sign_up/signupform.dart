@@ -1,13 +1,10 @@
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:footwearclub/authentication/shred_pref.dart';
 import 'package:footwearclub/authentication/sign_in/login.dart';
 import 'package:footwearclub/authentication/sign_in/loginform.dart';
-import 'package:footwearclub/splashscreen/splashdata.dart';
+import 'package:footwearclub/constants/splashdata.dart';
 import 'package:get/get.dart';
 import '../../constants/constant.dart';
-import '../profile/complateprofile.dart';
 import 'signup_with_email.dart';
 
 class SignUpForm extends StatefulWidget {

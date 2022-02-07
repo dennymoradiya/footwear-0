@@ -5,8 +5,8 @@ import 'package:flutter_signin_button/button_list.dart';
 import 'package:flutter_signin_button/button_view.dart';
 import 'package:footwearclub/authentication/sign_in/bussinessname_dialog.dart';
 import 'package:footwearclub/authentication/sign_in/loginsucces.dart';
-import 'package:footwearclub/seller/SellerMainScreen.dart'; 
-import 'package:footwearclub/splashscreen/splashdata.dart';
+import 'package:footwearclub/constants/splashdata.dart';
+import 'package:footwearclub/seller/pages/SellerMainScreen.dart'; 
 import 'package:get/get.dart';
 
 import '../../constants/constant.dart';

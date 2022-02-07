@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:footwearclub/HomeScreen.dart'; 
 import 'package:footwearclub/constants/constant.dart';
-import 'package:footwearclub/splashscreen/splashdata.dart';
-import 'package:get/get.dart';
+import 'package:footwearclub/constants/splashdata.dart';
 
 
 class Login_succes extends StatelessWidget {
@@ -31,7 +29,7 @@ class Login_succes extends StatelessWidget {
             child: DefaultButton(
               text: "Back to home",
               press: () {
-                Get.offAll(HomeScreen());
+                // Get.offAll(HomeScreen());
               },
             ),
           ),

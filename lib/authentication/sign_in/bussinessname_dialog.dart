@@ -2,12 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:footwearclub/constants/constant.dart';
-import 'package:footwearclub/seller/SellerMainScreen.dart'; 
-import 'package:footwearclub/splashscreen/splashdata.dart';
+import 'package:footwearclub/constants/splashdata.dart';
+import 'package:footwearclub/seller/pages/SellerMainScreen.dart'; 
 import 'package:get/get.dart';
 
-import '../shred_pref.dart';
-import 'loginform.dart';
+
 
 var collection = FirebaseFirestore.instance.collection('seller');
 final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -31,8 +30,8 @@ Future bussinessNameDialog(context) {
       context: context,
       // barrierColor: popupBackground,
       isScrollControlled: true, // only work on showModalBottomSheet function
-      shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.only(
+      shape: const RoundedRectangleBorder(
+          borderRadius:   BorderRadius.only(
               topLeft: Radius.circular(20), topRight: Radius.circular(20))),
       builder: (context) => Padding(
             padding: MediaQuery.of(context).viewInsets,
@@ -43,7 +42,7 @@ Future bussinessNameDialog(context) {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Text(
+                    const Text(
                       "Enter Your Bussiness",
                       style: TextStyle(
                           fontSize: 20,

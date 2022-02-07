@@ -1,9 +1,7 @@
 
-import 'dart:ui';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:footwearclub/splashscreen/splashdata.dart';
+
+import 'splashdata.dart';
 
 const kPrimaryColor = Color(0xFFFF7643);
 const kPrimaryLightColor = Color(0xFFFFECDF);
